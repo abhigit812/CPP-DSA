@@ -24,7 +24,7 @@ int main()
     int element;
     cin>>element;
 
-    if(find(arr, size, element))
+    if (find(arr, size, element) )
     {
         cout<<"Element is present"<<endl;
     }
