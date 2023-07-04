@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-bool find(int arr[],int size,int element)
+bool find(int arr[],int size,int element){
 // Linear search
 for (int i = 0; i < size; i++)
 {
@@ -15,7 +15,7 @@ for (int i = 0; i < size; i++)
 }
 
 
-
+}
 int main()
 {
     int arr[]={1,3,4,6,7};
